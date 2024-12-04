@@ -1,6 +1,6 @@
 function isGreaterThanTen() {
     const num = document.getElementById("input");
-    const inputValue = parseInt(num.value); 
+    const inputValue = parseFloat(num.value); 
     if(inputValue>10)
         alert("Value accepted.");
     else
