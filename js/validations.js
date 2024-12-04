@@ -1,4 +1,4 @@
-function isGraterThanTen() {
+function isGreaterThanTen() {
     const num = document.getElementById("input");
     const inputValue = parseInt(num.value); 
     if(inputValue>=10)
